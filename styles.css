@@ -1,0 +1,124 @@
+#body {
+    border: 5px groove  yellowgreen;
+    margin: 0;
+    background-image: url(./img.jpg);
+    background-size: cover;
+}
+
+.divclass {
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+}
+
+#div1 {
+    height: 100px;
+    width: 330px;
+    font-size: 30px;
+    border-radius: 30px;
+    position: absolute;
+    display: inline-block;
+    padding: 20px 90px 20px 40px;
+    top: 25px;
+    left: 70px;
+    font-weight: bold;
+}
+
+#div2 {
+   top: 35px;
+   left: 320px;
+   display: inline;
+   font-size: 35px;
+   border-radius: 35px;
+   position: absolute;
+   padding: 20px 50px 20px 70px;
+}
+
+#div3 {
+    height: 100px;
+    width: 350px;
+    font-size: 23px;
+    border-radius: 30px;
+    top: 25px;
+    right: 70px;
+    position: absolute;
+    display: inline-block;
+    padding: 20px 70px 40px 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#formdiv {
+    margin-top: 250px;
+    margin-left: 690px;
+}
+
+#form {
+    width: 400px;
+    border: dashed 5px red;
+    display: inline-block;
+    background-color: white;
+    color: lightcoral;
+}
+
+#formheader{
+    font-size: 30px;
+}
+
+#circle {
+    height: 400px;
+    width: 400px;
+    border: 8px solid gray;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 85px;
+    top: 430px;
+    font-size: 24px;
+    background-color: rgba(32, 190, 140);
+}
+
+.circlelist {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#firstclist {
+    padding-top: 65px;
+}
+
+#menu {
+    width: 450px;
+    height: 40px;
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 480px;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 15px 0px 6px 0px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#flex-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-items {
+    width: 350px;
+    height: 270px;
+    border: 3px solid green;
+    background-color: aqua;
+    color: purple;
+    text-align: center;
+    margin: 30px 40px 30px 40px;
+    border-radius: 35px;
+
+}
